@@ -18,6 +18,10 @@
  * @package WordPress
  */
 
+// ** URL web ** //
+define( 'WP_HOME', 'http://webappwp.azurewebsites.net' );
+define( 'WP_SITEURL', 'http://webappwp.azurewebsites.net/' );
+
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'wordpressdb' );
